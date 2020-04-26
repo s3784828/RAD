@@ -1,0 +1,33 @@
+<div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <%# <%= link_to "Ruby on Rails Tutorial", "https://www.railstutorial.org/"%>
+    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <h3>
+    <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+  </h3>
+
+  <h4>
+    <%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
+  </h4>
+  
+  <h5>
+    This is a picture of a kitten, A kitten is a juvenile cat. 
+    <%= image_tag("kitten.jpg", alt: "Kitten image") %>
+    After being born, kittens are totally dependent on their mother for survival 
+    and they do not normally open their eyes until after seven to ten days. 
+    After about two weeks, kittens quickly develop and begin to explore the world 
+    outside the nest. After a further three to four weeks, 
+    they begin to eat solid food and grow adult teeth. 
+    Domestic kittens are highly social animals and usually enjoy human companionship.
+    <%= link_to "Learn more about kittens here!", 'https://en.wikipedia.org/wiki/Kitten' %>
+  </h5>
+  
+</div>
+
