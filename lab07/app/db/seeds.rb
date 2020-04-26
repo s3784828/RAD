@@ -11,6 +11,7 @@ user1.name = "bill"
 user1.email = "bill@mail.com"
 user1.password = "123"
 user1.password_confirmation = "123"
+user1.remember
 user1.save
 
 user2 = User.new
@@ -18,4 +19,5 @@ user2.name = "jill"
 user2.email = "jill@mail.com"
 user2.password = "123"
 user2.password_confirmation = "123"
+user2.remember
 user2.save
